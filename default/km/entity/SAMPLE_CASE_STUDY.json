@@ -1,0 +1,44 @@
+{
+  "$id": "SAMPLE_CASE_STUDY",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_photo": {
+      "alternateText": "Logo of Yext",
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/6zo_mMqpbd0B6XeTyWCuwSKAR_9kBdwuUWW4IXRqg8M/450x450.png",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/6zo_mMqpbd0B6XeTyWCuwSKAR_9kBdwuUWW4IXRqg8M/196x196.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/6zo_mMqpbd0B6XeTyWCuwSKAR_9kBdwuUWW4IXRqg8M/600x600.png",
+      "width": 600
+    },
+    "c_primaryCTA": {
+      "label": "Get a Demo",
+      "link": "[[website]]",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Learn More",
+      "link": "[[website]]",
+      "linkType": "URL"
+    },
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "yext/name": "Sample Case Study - Yext",
+    "yext/websiteUrl": {
+      "displayUrl": "https://yext.com",
+      "preferDisplayUrl": false,
+      "url": "https://yext.com"
+    }
+  },
+  "entityType": "ce_caseStudy",
+  "labels": []
+}

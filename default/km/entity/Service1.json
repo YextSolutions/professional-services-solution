@@ -1,0 +1,31 @@
+{
+  "$id": "Service1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_photo": {
+      "alternateText": "[[name]] Image",
+      "height": 300,
+      "thumbnails": [
+        {
+          "height": 98,
+          "url": "https://a.mktgcdn.com/p/6A2XkZEDLnoazyMEyq_gA0gWrlkBZlMxWQ8Spj4zVow/196x98.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/6A2XkZEDLnoazyMEyq_gA0gWrlkBZlMxWQ8Spj4zVow/600x300.png",
+      "width": 600
+    },
+    "c_primaryCTA": {
+      "label": "Get a Quote",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_serviceCategory": "Featured Services",
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/landingPageUrl": "https://www.yext.com",
+    "yext/name": "Professional Services"
+  },
+  "entityType": "ce_service",
+  "labels": []
+}

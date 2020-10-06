@@ -1,0 +1,47 @@
+{
+  "$id": "SAMPLE_CASE_STUDY_2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "c_activeInAnswers": true,
+    "c_photo": {
+      "alternateText": "[[name]] Image",
+      "height": 600,
+      "thumbnails": [
+        {
+          "height": 450,
+          "url": "https://a.mktgcdn.com/p/wsORSXjV1n7e6NL4B1zFTnrOBUdlDHJzgTUABNeB2lY/450x450.png",
+          "width": 450
+        },
+        {
+          "height": 196,
+          "url": "https://a.mktgcdn.com/p/wsORSXjV1n7e6NL4B1zFTnrOBUdlDHJzgTUABNeB2lY/196x196.png",
+          "width": 196
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/wsORSXjV1n7e6NL4B1zFTnrOBUdlDHJzgTUABNeB2lY/600x600.png",
+      "width": 600
+    },
+    "c_primaryCTA": {
+      "label": "Get a Demo",
+      "link": "[[website]]",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Learn More",
+      "link": "[[website]]",
+      "linkType": "URL"
+    },
+    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "yext/keywords": [
+      "Learning Content"
+    ],
+    "yext/name": "Case Study - Hitchhikers",
+    "yext/websiteUrl": {
+      "displayUrl": "https://hitchhikers.yext.com",
+      "preferDisplayUrl": false,
+      "url": "https://hitchhikers.yext.com"
+    }
+  },
+  "entityType": "ce_caseStudy",
+  "labels": []
+}

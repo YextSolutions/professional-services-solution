@@ -1,0 +1,142 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers",
+  "name": "answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "caseStudies": {
+      "entityTypes": [
+        "ce_caseStudy"
+      ],
+      "name": "Case Studies",
+      "savedSearchId": "54924027",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "40233348",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    },
+    "locations": {
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Locations",
+      "savedSearchId": "40238747",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "services": {
+      "entityTypes": [
+        "ce_service"
+      ],
+      "name": "Services",
+      "savedSearchId": "40244146",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_serviceCategory": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "What are your services?",
+      "Customer Case Studies",
+      "Where are your locations?",
+      "What value do you provide?"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "location",
+        "office",
+        "offices",
+        "restaurant",
+        "restaurants",
+        "store",
+        "stores",
+        "place",
+        "facility"
+      ],
+      [
+        "faq",
+        "question",
+        "frequently asked questions"
+      ],
+      [
+        "product",
+        "buy",
+        "offer",
+        "shop"
+      ]
+    ]
+  },
+  "localizations": {}
+}

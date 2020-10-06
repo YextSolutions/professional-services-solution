@@ -1,0 +1,30 @@
+{
+  "$id": "Case_Study_-_CTA_Clicks_1601260665",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Case Study - CTA Clicks",
+  "conversionType": "LEAD",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 10.0,
+  "conversionTerm": {
+    "startDate": "2020-09-27"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "CALL_TO_ACTION",
+        "entityFilter": {
+          "entityTypeIn": [
+            "ce_caseStudy"
+          ]
+        },
+        "media": [
+          {
+            "mediumType": "ALL_ANSWERS_EXPERIENCES"
+          }
+        ]
+      }
+    ],
+    "completionRate": 20.0
+  },
+  "enabled": true
+}
