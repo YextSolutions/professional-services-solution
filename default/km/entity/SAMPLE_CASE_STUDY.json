@@ -32,12 +32,8 @@
       "linkType": "URL"
     },
     "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "yext/name": "Sample Case Study - Yext",
-    "yext/websiteUrl": {
-      "displayUrl": "https://yext.com",
-      "preferDisplayUrl": false,
-      "url": "https://yext.com"
-    }
+    "yext/landingPageUrl": "https://yext.com",
+    "yext/name": "Sample Case Study - Yext"
   },
   "entityType": "ce_caseStudy",
   "labels": []

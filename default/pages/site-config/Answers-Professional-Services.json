@@ -3,7 +3,7 @@
   "$schema": "https://schema.yext.com/config/pages/site-config/v1",
   "siteName": "Answers - Professional Services",
   "repoConfig": {
-    "targetRepoName": "professional-services-template-answers-site-${{businessId}}.com",
+    "targetRepoName": "professional-services-answers-site-${{businessId}}.com",
     "templateRepo": "github.com/yext-pages/answers-template-professional-services"
   },
   "publishingConfig": {

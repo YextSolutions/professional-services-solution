@@ -1,7 +1,7 @@
 {
-  "$id": "54924027",
+  "$id": "65749022",
   "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
-  "name": "Case Studies on Answers",
+  "name": "Pages - Services",
   "filter": {
     "entityField": [
       {
@@ -12,7 +12,7 @@
     "entityType": [
       {
         "entityTypeId": [
-          "ce_caseStudy"
+          "ce_service"
         ],
         "type": "IS"
       }

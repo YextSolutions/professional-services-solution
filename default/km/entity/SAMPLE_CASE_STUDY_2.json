@@ -35,12 +35,8 @@
     "yext/keywords": [
       "Learning Content"
     ],
-    "yext/name": "Case Study - Hitchhikers",
-    "yext/websiteUrl": {
-      "displayUrl": "https://hitchhikers.yext.com",
-      "preferDisplayUrl": false,
-      "url": "https://hitchhikers.yext.com"
-    }
+    "yext/landingPageUrl": "https://hitchhikers.yext.com",
+    "yext/name": "Case Study - Hitchhikers"
   },
   "entityType": "ce_caseStudy",
   "labels": []
