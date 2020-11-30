@@ -2,7 +2,7 @@
   "$id": "SAMPLE_CASE_STUDY_2",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
-    "c_activeInAnswers": true,
+    "c_activeInAnswers": "YES",
     "c_photo": {
       "alternateText": "[[name]] Image",
       "height": 600,
