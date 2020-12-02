@@ -39,7 +39,7 @@
           "textSearch": true
         },
         "name": {
-          "textSearch": true
+          "semanticTextSearch": true
         }
       },
       "sortBys": [],
