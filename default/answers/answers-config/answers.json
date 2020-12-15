@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
-  "$id": "answers_ps",
+  "$id": "answers",
   "name": "Answers PS",
   "supportedLocales": [],
   "countryRestrictions": [],
