@@ -1,7 +1,7 @@
 {
-  "$id": "Case_Study_-_CTA_Clicks_1601260665",
+  "$id": "1012",
   "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
-  "conversionName": "Case Study - CTA Clicks",
+  "conversionName": "Case Study - Title Clicks",
   "conversionType": "LEAD",
   "conversionValueType": "SAME",
   "conversionValueAmount": 10.0,
@@ -11,7 +11,7 @@
   "conversionTrigger": {
     "clickTriggers": [
       {
-        "clickType": "CALL_TO_ACTION",
+        "clickType": "TITLE",
         "entityFilter": {
           "entityTypeIn": [
             "ce_caseStudy"

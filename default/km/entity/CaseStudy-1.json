@@ -1,5 +1,5 @@
 {
-  "$id": "SAMPLE_CASE_STUDY",
+  "$id": "CaseStudy-1",
   "$schema": "https://schema.yext.com/config/km/entity/v1",
   "content": {
     "c_activeInAnswers": "YES",
