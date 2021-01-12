@@ -35,7 +35,7 @@
         "keywords": {
           "textSearch": true
         },
-        "c_relatedServices": {
+        "c_relatedServices.name": {
           "textSearch": true
         },
         "name": {
