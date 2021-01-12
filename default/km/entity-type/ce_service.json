@@ -22,11 +22,7 @@
       "required": false
     },
     {
-      "id": "c_associatedLocations",
-      "required": false
-    },
-    {
-      "id": "c_associatedProfessionals",
+      "id": "c_relatedLocations",
       "required": false
     },
     {

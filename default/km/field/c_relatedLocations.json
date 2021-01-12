@@ -1,8 +1,8 @@
 {
-  "$id": "c_associatedSpecialty",
+  "$id": "c_relatedLocations",
   "$schema": "https://schema.yext.com/config/km/field/v1",
   "description": "",
-  "displayName": "Associated Specialty",
+  "displayName": "Related Locations",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
   "type": {

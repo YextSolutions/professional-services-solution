@@ -22,11 +22,19 @@
       "required": false
     },
     {
+      "id": "c_applicableVertical",
+      "required": false
+    },
+    {
       "id": "c_photo",
       "required": false
     },
     {
       "id": "c_primaryCTA",
+      "required": false
+    },
+    {
+      "id": "c_relatedServices",
       "required": false
     },
     {

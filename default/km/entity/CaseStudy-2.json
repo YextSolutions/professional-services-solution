@@ -26,6 +26,9 @@
       "link": "[[website]]",
       "linkType": "URL"
     },
+    "c_relatedServices": [
+      "Service1"
+    ],
     "c_secondaryCTA": {
       "label": "Learn More",
       "link": "[[website]]",
@@ -36,7 +39,7 @@
       "Learning Content"
     ],
     "yext/landingPageUrl": "https://hitchhikers.yext.com",
-    "yext/name": "Case Study - Hitchhikers"
+    "yext/name": "Sample Case Study - Hitchhikers"
   },
   "entityType": "ce_caseStudy",
   "labels": []

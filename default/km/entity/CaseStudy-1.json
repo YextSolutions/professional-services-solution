@@ -26,6 +26,9 @@
       "link": "[[website]]",
       "linkType": "URL"
     },
+    "c_relatedServices": [
+      "Service2"
+    ],
     "c_secondaryCTA": {
       "label": "Learn More",
       "link": "[[website]]",
