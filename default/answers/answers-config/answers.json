@@ -5,6 +5,23 @@
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
+    "blogs": {
+      "entityTypes": [
+        "ce_blog"
+      ],
+      "name": "Blogs",
+      "savedSearchId": "82545311",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
     "caseStudies": {
       "entityTypes": [
         "ce_caseStudy"
