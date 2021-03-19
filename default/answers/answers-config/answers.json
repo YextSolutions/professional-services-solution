@@ -84,8 +84,7 @@
           "nlpFilter": true
         },
         "builtin.location": {
-          "nlpFilter": true,
-          "textSearch": true
+          "nlpFilter": true
         },
         "keywords": {
           "textSearch": true
@@ -122,14 +121,33 @@
       "source": "KNOWLEDGE_MANAGER"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "What are your services?",
       "Customer Case Studies",
-      "Where are your locations?",
+      "Locations near me?",
       "What value do you provide?"
-    ]
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "services": [
+        "[[name]]"  
+      ],
+      "blogs": [
+        "[[name]]"  
+      ],
+      "caseStudies": [
+        "[[name]]"  
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
@@ -158,5 +176,6 @@
       ]
     ]
   },
-  "localizations": {}
+  "localizations": {},
+  "additionalSearchablePlaces": []
 }
