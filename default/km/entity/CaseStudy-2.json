@@ -34,12 +34,12 @@
       "link": "[[website]]",
       "linkType": "URL"
     },
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "yext/keywords": [
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "keywords": [
       "Learning Content"
     ],
-    "yext/landingPageUrl": "https://hitchhikers.yext.com",
-    "yext/name": "Sample Case Study - Hitchhikers"
+    "landingPageUrl": "https://hitchhikers.yext.com",
+    "name": "Sample Case Study - Hitchhikers"
   },
   "entityType": "ce_caseStudy",
   "labels": []

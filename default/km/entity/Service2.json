@@ -22,9 +22,9 @@
         "linkType": "URL"
       },
       "c_serviceCategory": "Featured Services",
-      "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "yext/landingPageUrl": "https://www.yext.com",
-      "yext/name": "Marketing Consultancy Services"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "landingPageUrl": "https://www.yext.com",
+      "name": "Marketing Consultancy Services"
     },
     "entityType": "ce_service",
     "labels": []

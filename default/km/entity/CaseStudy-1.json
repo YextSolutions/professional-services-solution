@@ -34,9 +34,9 @@
       "link": "[[website]]",
       "linkType": "URL"
     },
-    "yext/description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "yext/landingPageUrl": "https://yext.com",
-    "yext/name": "Sample Case Study - Yext"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "landingPageUrl": "https://yext.com",
+    "name": "Sample Case Study - Yext"
   },
   "entityType": "ce_caseStudy",
   "labels": []
