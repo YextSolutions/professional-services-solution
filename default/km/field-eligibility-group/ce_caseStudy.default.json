@@ -1,0 +1,17 @@
+{
+  "$id": "ce_caseStudy.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Case Study-default",
+  "entityType": "ce_caseStudy",
+  "fields": [
+    "landingPageUrl",
+    "description",
+    "c_activeInAnswers",
+    "c_applicableVertical",
+    "c_photo",
+    "c_primaryCTA",
+    "c_relatedServices",
+    "c_secondaryCTA",
+    "keywords"
+  ]
+}
