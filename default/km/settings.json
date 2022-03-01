@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "ce_blog",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_caseStudy",
+      "disabled": false
+    },
+    {
+      "entityType": "ce_service",
+      "disabled": false
+    },
+    {
+      "entityType": "event",
+      "disabled": false
+    },
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "disabled": false
+    }
+  ]
+} 
