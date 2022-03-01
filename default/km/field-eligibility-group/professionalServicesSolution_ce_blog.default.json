@@ -1,16 +1,15 @@
 {
-  "$id": "ce_caseStudy.default",
+  "$id": "professionalServicesSolution_ce_blog",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Case Study-default",
-  "entityType": "ce_caseStudy",
+  "name": "professionalServicesSolution_Blog",
+  "entityType": "ce_blog",
   "fields": [
     "landingPageUrl",
     "description",
     "c_activeInAnswers",
-    "c_applicableVertical",
+    "c_author",
     "c_photo",
     "c_primaryCTA",
-    "c_relatedServices",
     "c_secondaryCTA",
     "keywords"
   ]
