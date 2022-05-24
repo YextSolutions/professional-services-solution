@@ -15,13 +15,20 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalBias": -0.1,
+      "semanticVerticalIntents": [
+        "blogs",
+        "articles",
+        "news"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -35,16 +42,21 @@
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "keywords": {
+        "c_relatedServices.name": {
           "textSearch": true
         },
-        "c_relatedServices.name": {
+        "keywords": {
           "textSearch": true
         },
         "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "case studies",
+        "customers"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -65,6 +77,11 @@
           "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -72,6 +89,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -96,6 +114,13 @@
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "locations",
+        "locations near me",
+        "offices"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -120,36 +145,14 @@
           "textSearch": true
         }
       },
+      "semanticVerticalBias": 0.1,
+      "semanticVerticalIntents": [
+        "services",
+        "products"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
-    }
-  },
-  "querySuggestions": {
-    "popularQueriesBlacklistedTerms": [],
-    "universalPrompts": [
-      "What are your services?",
-      "Customer Case Studies",
-      "Locations near me?",
-      "What value do you provide?"
-    ],
-    "verticalPrompts": {
-      "faqs": [
-        "[[name]]"
-      ],
-      "locations": [
-        "Locations near [[address.city]]",
-        "Locations near [[address.region]]",
-        "Locations near me"
-      ],
-      "services": [
-        "[[name]]"  
-      ],
-      "blogs": [
-        "[[name]]"  
-      ],
-      "caseStudies": [
-        "[[name]]"  
-      ]
     }
   },
   "synonyms": {
@@ -180,5 +183,35 @@
     ]
   },
   "localizations": {},
-  "additionalSearchablePlaces": []
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "What are your services?",
+      "Customer Case Studies",
+      "Locations near me?",
+      "What value do you provide?"
+    ],
+    "verticalPrompts": {
+      "blogs": [
+        "[[name]]"
+      ],
+      "caseStudies": [
+        "[[name]]"
+      ],
+      "faqs": [
+        "[[name]]"
+      ],
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]",
+        "Locations near me"
+      ],
+      "services": [
+        "[[name]]"
+      ]
+    }
+  }
 }
